@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Fannie Mae ShoppingCart App Suite" parallel="false">
+  <test name="SmokeTest">
+    <classes>
+      <class name="com.fanniemae.testng.End2EndTestShoppingCartApp"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="RegressionTest">
+    <classes>
+      <class name="com.fanniemae.testng.End2EndTestShoppingCartApp"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="SanityTest">
+    <classes>
+      <class name="com.fanniemae.testng.End2EndTestShoppingCartApp"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
